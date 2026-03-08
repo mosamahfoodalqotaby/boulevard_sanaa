@@ -154,32 +154,6 @@ export default function AdminLogin() {
               </button>
             </form>
 
-            {/* Demo Credentials */}
-            <div className="mt-8 pt-8 border-t border-yellow-600/30">
-              <p className="text-sm text-gray-400 mb-4 text-center">
-                بيانات الدخول التجريبية:
-              </p>
-              <div className="space-y-3">
-                <div className="p-3 bg-slate-700/50 rounded-lg">
-                  <p className="text-xs text-gray-500">المدير العام</p>
-                  <p className="text-sm text-[#d4a574]">
-                    admin / admin123
-                  </p>
-                </div>
-                <div className="p-3 bg-slate-700/50 rounded-lg">
-                  <p className="text-xs text-gray-500">مدير العمليات</p>
-                  <p className="text-sm text-[#d4a574]">
-                    manager / manager123
-                  </p>
-                </div>
-                <div className="p-3 bg-slate-700/50 rounded-lg">
-                  <p className="text-xs text-gray-500">الموظف</p>
-                  <p className="text-sm text-[#d4a574]">
-                    staff / staff123
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Back Link */}
