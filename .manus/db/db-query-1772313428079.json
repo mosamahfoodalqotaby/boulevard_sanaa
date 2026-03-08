@@ -1,0 +1,46 @@
+{
+  "query": "SELECT TABLE_NAME, TABLE_ROWS FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2jLhJHubTyoZ5ET.root --database ALmxfXzXdGwygXSTLhzNJo --execute SELECT TABLE_NAME, TABLE_ROWS FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "rows": [
+    {
+      "TABLE_NAME": "__drizzle_migrations",
+      "TABLE_ROWS": "1"
+    },
+    {
+      "TABLE_NAME": "users",
+      "TABLE_ROWS": "1"
+    },
+    {
+      "TABLE_NAME": "activityLogs",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "bookings",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "customers",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "feedback",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "invoices",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "packages",
+      "TABLE_ROWS": "0"
+    },
+    {
+      "TABLE_NAME": "qrContent",
+      "TABLE_ROWS": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "TABLE_NAME\tTABLE_ROWS\n__drizzle_migrations\t1\nusers\t1\nactivityLogs\t0\nbookings\t0\ncustomers\t0\nfeedback\t0\ninvoices\t0\npackages\t0\nqrContent\t0\n",
+  "stderr": "",
+  "execution_time_ms": 378
+}

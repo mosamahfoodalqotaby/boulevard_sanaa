@@ -1,0 +1,25 @@
+{
+  "query": "SELECT id, customerName, generateQRCode FROM bookings LIMIT 3;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2jLhJHubTyoZ5ET.root --database ALmxfXzXdGwygXSTLhzNJo --execute SELECT id, customerName, generateQRCode FROM bookings LIMIT 3;",
+  "rows": [
+    {
+      "id": "1",
+      "customerName": "",
+      "generateQRCode": "1"
+    },
+    {
+      "id": "2",
+      "customerName": "",
+      "generateQRCode": "1"
+    },
+    {
+      "id": "3",
+      "customerName": "",
+      "generateQRCode": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tcustomerName\tgenerateQRCode\n1\t\t1\n2\t\t1\n3\t\t0\n",
+  "stderr": "",
+  "execution_time_ms": 358
+}

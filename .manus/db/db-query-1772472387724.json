@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE `bookings` MODIFY COLUMN `paidAmount` text;\nALTER TABLE `bookings` MODIFY COLUMN `remainingAmount` text;\nALTER TABLE `bookings` ADD `generateQRCode` boolean DEFAULT false NOT NULL;\nALTER TABLE `bookings` DROP COLUMN `endDate`;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2jLhJHubTyoZ5ET.root --database ALmxfXzXdGwygXSTLhzNJo --execute ALTER TABLE `bookings` MODIFY COLUMN `paidAmount` text;\nALTER TABLE `bookings` MODIFY COLUMN `remainingAmount` text;\nALTER TABLE `bookings` ADD `generateQRCode` boolean DEFAULT false NOT NULL;\nALTER TABLE `bookings` DROP COLUMN `endDate`;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2936
+}

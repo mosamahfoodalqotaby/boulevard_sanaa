@@ -1,0 +1,30 @@
+{
+  "query": "SELECT * FROM bookings LIMIT 1;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2jLhJHubTyoZ5ET.root --database ALmxfXzXdGwygXSTLhzNJo --execute SELECT * FROM bookings LIMIT 1;",
+  "rows": [
+    {
+      "id": "1",
+      "customerId": "1",
+      "type": "hall",
+      "startDate": "2026-03-04 00:00:00",
+      "status": "pending",
+      "price": "100000.00",
+      "notes": "",
+      "createdBy": "1",
+      "createdAt": "2026-03-04 05:16:51",
+      "updatedAt": "2026-03-04 05:16:51",
+      "eventDate": "2026-03-04 00:00:00",
+      "paidAmount": "50000",
+      "remainingAmount": "50000",
+      "additionalDetails": "",
+      "generateQRCode": "1",
+      "customerName": "",
+      "customerPhone": "",
+      "guestCount": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tcustomerId\ttype\tstartDate\tstatus\tprice\tnotes\tcreatedBy\tcreatedAt\tupdatedAt\teventDate\tpaidAmount\tremainingAmount\tadditionalDetails\tgenerateQRCode\tcustomerName\tcustomerPhone\tguestCount\n1\t1\thall\t2026-03-04 00:00:00\tpending\t100000.00\t\t1\t2026-03-04 05:16:51\t2026-03-04 05:16:51\t2026-03-04 00:00:00\t50000\t50000\t\t1\t\t\t0\n",
+  "stderr": "",
+  "execution_time_ms": 381
+}
